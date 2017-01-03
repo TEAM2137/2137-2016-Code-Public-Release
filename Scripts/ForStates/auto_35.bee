@@ -1,0 +1,37 @@
+# Function 35 (Cross Cheval de Frise Defense, Score High)
+
+# Wait 1.500 seconds for the shooter to reset.
+WAIT 1500
+# Since the robot should be aligned at the start, set the current yaw on the NavX's gyroscope to 0.
+NAVX_ZERO_YAW
+
+# Set the desired shooter angle to the given value. Needed to keep ball in position.
+SET_ROLLER_ANGLE 0
+SET_SHOOTER_SPEED -3300
+WAIT_FOR_PID
+
+DRIVE_STRAIGHT_TARGET 42 0 10000 75
+
+SET_ROLLER_ANGLE 580
+
+WAIT 1000
+
+DRIVE_STRAIGHT_TARGET 78 0 10000 75
+
+# Set the shooter wheel to move at 4000 RPM. Needed to shoot into the low goal.
+SET_ROLLER_ANGLE 580
+SET_SHOOTER_SPEED 4500
+SET_SHOOTER_ANGLE 171
+WAIT_FOR_PID
+
+# Use vision to turn and face the goal.
+SEARCH_FOR_GOAL
+
+WAIT 500
+
+SET_ROLLER_ANGLE 0
+
+WAIT 500
+
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

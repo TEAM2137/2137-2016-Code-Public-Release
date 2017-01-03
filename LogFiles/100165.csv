@@ -1,0 +1,1 @@
+Time,RobotMode,AutoToRun,ErrorStatus, ErrorCode,ErrorSource,ActualRPM1,ActualRPM2,DesiredRPM1,DesiredRPM2,ControlMode1,ControlMode2,Yaw,Roll,Pitch,ShooterState,LoopTime,IsLevel,IsAutoTargeting,LeftMotorOutput,RightMotorOutput

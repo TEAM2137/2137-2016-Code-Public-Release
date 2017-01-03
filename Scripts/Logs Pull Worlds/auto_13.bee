@@ -1,0 +1,42 @@
+# Function 13 (Cross Defense, Score High, Low Bar)
+
+# Wait 1.500 seconds for the shooter to reset.
+WAIT 1500
+# Since the robot should be aligned at the start, set the current yaw on the NavX's gyroscope to 0.
+NAVX_ZERO_YAW
+
+SET_SHOOTER_SPEED 2500
+# Set the desired shooter angle to the given value. Needed to go under low bar.
+SET_SHOOTER_ANGLE 340
+# Set the desired shooter angle to the given value. Needed to go under low bar.
+SET_ROLLER_ANGLE 600
+
+# Give the roller time to move into position before driving forward.
+WAIT 750
+
+# Drive straight for 206 inches, under low bar and into position, at current angle (1000), at 75% speed, stopping if bot takes more than 10.000 seconds.
+DRIVE_STRAIGHT_TARGET 158 1000 10000 75
+# Set the desired shooter angle to the given value. Needed to shoot into the low goal.
+SET_SHOOTER_ANGLE 164
+# Set the desired shooter angle to the given value. Needed to shoot into the low goal.
+SET_ROLLER_ANGLE 500
+
+# Set the shooter wheel to move at 4000 RPM. Needed to shoot into the low goal.
+SET_SHOOTER_SPEED 4500
+# Turn 55 degrees to the right at 50% power, to be in line with the ramp. 
+SET_HEADING 45 55
+
+# Since the SET_ commands set the target value for the PID loops, wait for the PIDs to reach their targets.
+WAIT_FOR_PID
+
+# Wait for the vision tracking to find the goal before shooting.
+SEARCH_FOR_GOAL
+
+WAIT 500
+
+SET_ROLLER_ANGLE 500
+
+WAIT 500
+
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

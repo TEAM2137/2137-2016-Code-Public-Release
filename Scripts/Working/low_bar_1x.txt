@@ -1,0 +1,6 @@
+
+# Position 1x (Low goal)
+# Set the angle of the shooter, in rotations. Runs instantly, but may take some time to reach; run WAIT_FOR_PID or other commands before shooting. Needed to go under low bar.
+SET_SHOOTER_ANGLE 26.8
+# Set the angle of the shooter, in rotations. Runs instantly, but may take some time to reach; run WAIT_FOR_PID or other commands before shooting. Needed to go under low bar.
+SET_ROLLER_ANGLE 53

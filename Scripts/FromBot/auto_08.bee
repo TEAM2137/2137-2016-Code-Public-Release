@@ -1,0 +1,22 @@
+# Function 07 (Test Cross Portcullis Defense)
+
+# Wait 1.500 seconds for the shooter to reset.
+WAIT 1500
+# Since the robot should be aligned at the start, set the current yaw on the NavX's gyroscope to 0.
+NAVX_ZERO_YAW
+
+SET_HEADING 90 50
+
+DRIVE_STRAIGHT_TARGET 24 1000 10000 75
+
+SET_HEADING 179 50
+
+DRIVE_STRAIGHT_TARGET 24 1000 10000 75
+
+SET_HEADING -90 50
+
+DRIVE_STRAIGHT_TARGET 24 1000 10000 75
+
+SET_HEADING 0 50
+
+DRIVE_STRAIGHT_TARGET 24 1000 10000 75

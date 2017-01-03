@@ -1,0 +1,47 @@
+# Function 27 (Cross Portcullis Defense, Score Low)
+
+# Wait 1.500 seconds for the shooter to reset.
+WAIT 1500
+# Since the robot should be aligned at the start, set the current yaw on the NavX's gyroscope to 0.
+NAVX_ZERO_YAW
+
+# Set the desired shooter angle to the given value. Needed to keep ball in position.
+SET_SHOOTER_SPEED _SHOOTERWHEELSUCK
+SET_SHOOTER_ANGLE _SHOOTERANGLELOWBAR
+SET_ROLLER_ANGLE _ROLLERANGLELOWBAR
+
+WAIT 1500
+
+DRIVE_STRAIGHT_TARGET 96 0 10000 50
+
+# Since the SET_ commands set the target value for the PID loops, wait for the PIDs to reach their targets.
+SET_SHOOTER_ANGLE _SHOOTERANGLEHIGHGOAL
+SET_ROLLER_ANGLE _ROLLERANGLEUP
+
+WAIT_FOR_PID
+
+# Drive straight for 150 inches, nearing the back wall, at current angle (1000), at 90% speed, stopping if bot takes more than 10.000 seconds.
+DRIVE_STRAIGHT_TARGET 150 1000 10000 90
+# Drive straight for 25 inches, into the back wall (orienting the robot's position), at current angle (1000), at 60% speed, stopping if bot takes more than 1.500 seconds.
+DRIVE_STRAIGHT_TARGET 25 1000 1500 60
+# Drive backwards for 22 inches, into position to turn and shoot, at current angle (1000), at 60% speed, stopping if bot takes more than 3.000 seconds.
+DRIVE_STRAIGHT_TARGET -22 1000 3000 60
+
+SET_SHOOTER_ANGLE _SHOOTERANGLELOWGOAL
+SET_SHOOTER_SPEED _SHOOTERWHEELLOWGOAL
+SET_ROLLER_ANGLE _ROLLERANGLEUP
+
+SET_HEADING 66 50
+
+DRIVE_STRAIGHT_TARGET 32 1000 3000 70
+
+# Since the SET_ commands set the target value for the PID loops, wait for the PIDs to reach their targets.
+WAIT_FOR_PID
+
+# Fire the ball. Make sure that your shooter angle, shooter speed, and roller angle are correct!
+SHOOT
+
+# Wait 0.500 seconds before backing up. Can be removed for speed if needed.
+WAIT 500
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

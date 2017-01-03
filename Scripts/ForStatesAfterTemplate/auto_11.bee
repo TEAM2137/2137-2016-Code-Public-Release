@@ -1,0 +1,38 @@
+# Function 11 (Cross Defense, Low Bar, Return)
+
+# Wait 1.500 seconds for the shooter to reset.
+NAVX_ZERO_YAW
+WAIT 1500
+
+# Set the shooter values to go under low bar.
+SET_SHOOTER_ANGLE 340
+# Set the shooter values to go under low bar.
+SET_ROLLER_ANGLE _ROLLERANGLELOWBAR
+
+# Give the roller time to move into position before driving forward.
+WAIT 750
+
+# Drive forward until the robot has moved over the defense (indicated by the change in gyroscope angle) or 10.000 seconds have passed. 
+DRIVE_STRAIGHT_TARGET 140 1000 10000 75
+
+# Rotate the robot to face 0 degrees, reorienting the robot so it is facing towards the wall.
+SET_HEADING 0
+
+SET_SHOOTER_SPEED _SHOOTERSPEEDSPIT
+SET_SHOOTER_ANGLE 20
+SET_ROLLER_ANGLE _ROLLERANGLESPIT
+WAIT_FOR_PID
+SHOOT
+
+# Wait 0.500 seconds before backing up.
+WAIT 500
+
+# Drive forward until the robot has moved over the defense (indicated by the change in gyroscope angle) or 10.000 seconds have passed. 
+DRIVE_STRAIGHT_TARGET -140 1000 10000 75
+
+SET_HEADING 180
+
+# Wait 0.500 seconds before ending. Can be removed for speed if needed.
+WAIT 500
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

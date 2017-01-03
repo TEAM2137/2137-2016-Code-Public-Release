@@ -1,0 +1,8 @@
+# Function 30 (Reach Defense)
+
+# Wait 0.500 seconds before script starts. Can be removed for speed if needed.
+WAIT 500
+# Drive straight until the encoders read 46.675 inches or the command has been running for 10.000 seconds. 
+DRIVE_STRAIGHT 46.675 10000
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

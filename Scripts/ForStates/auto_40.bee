@@ -1,0 +1,20 @@
+# Function 40 (Cross Defense)
+
+# Wait 1.500 seconds for the shooter to reset.
+WAIT 1500
+# Since the robot should be aligned at the start, set the current yaw on the NavX's gyroscope to 0.
+NAVX_ZERO_YAW
+
+# Set the desired shooter angle to the given value. Needed to keep ball in position.
+SET_SHOOTER_SPEED -4000
+
+# Drive forward until the robot has moved over the defense (indicated by the change in gyroscope angle) or 10.000 seconds have passed. 
+DRIVE_STRAIGHT_NAVX_RAMPARTS 200 10000 200
+
+# Rotate the robot to face 0 degrees, reorienting the robot so it is facing towards the wall.
+SET_HEADING 0
+
+# Wait 0.500 seconds before backing up. Can be removed for speed if needed.
+WAIT 500
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

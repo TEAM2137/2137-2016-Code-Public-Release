@@ -1,0 +1,246 @@
+Time,RobotMode,AutoToRun,ErrorStatus, ErrorCode,ErrorSource,ActualRPM1,ActualRPM2,DesiredRPM1,DesiredRPM2,ControlMode1,ControlMode2,Yaw,Roll,Pitch,ShooterState,LoopTime,IsLevel,IsAutoTargeting,LeftMotorOutput,RightMotorOutput
+10:19:35.055 AM 02/06/2016,Autonomous Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870006->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:35.154 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870006->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,405029.000000,0,0,0.000000,-0.000000,0
+10:19:35.254 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870006->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:35.355 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadLoopTiming.vi->WPI_DigitalModuleOpen.vi->WPI_MotorControlOpen&ConfigurePWM.vi->WPI_MotorControlOpen VictorSP.vi->WPI_RobotDriveOpen4MotorWithVictorSP.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:35.454 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIAverageBits.vi->WPI_AnalogModuleOpen.vi->WPI_AnalogChannelOpen.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:35.555 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIAverageBits.vi->WPI_AnalogModuleOpen.vi->WPI_AnalogChannelOpen.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:35.656 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870006->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:35.756 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIAverageBits.vi->WPI_AnalogModuleOpen.vi->WPI_AnalogChannelOpen.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:35.855 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:35.956 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadLoopTiming.vi->WPI_DigitalModuleOpen.vi->WPI_MotorControlOpen&ConfigurePWM.vi->WPI_MotorControlOpen VictorSP.vi->WPI_RobotDriveOpen4MotorWithVictorSP.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:36.055 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:36.155 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:36.255 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:36.356 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:36.455 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:36.555 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:36.656 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870006->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:36.756 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870006->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:36.856 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870009->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:36.956 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:37.056 AM 02/06/2016,Teleop Disabled,0,TRUE,-44029,<LOCATION>WPI_SPIBusCache.vi<CALLSTACK>WPI_SPIBusCache.vi< <WPI_SPIOpen.vi< <navX Library v2.lvlib:Z900_navX_Internal_Open.vi< <navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:37.156 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:37.256 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:37.357 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:37.457 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:37.557 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:37.658 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:37.757 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:37.857 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:37.958 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:38.058 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:38.158 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:38.259 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,0.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:38.358 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:38.458 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:38.559 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:38.658 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:38.759 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:38.860 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:38.959 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:39.059 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:39.160 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:39.260 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:39.361 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:39.461 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:39.562 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,0.000000,0.000000,Speed,Speed,0.000000,0.000000,0.000000,2.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:39.662 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:39.762 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:39.861 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:39.962 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:40.063 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:40.162 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:40.262 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870010->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030002,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:40.362 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIAverageBits.vi->WPI_AnalogModuleOpen.vi->WPI_AnalogChannelOpen.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:40.462 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AccumulatorGetOutput.vi<CALLSTACK>WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogOpen.vi< <Begin.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:40.563 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AccumulatorGetOutput.vi<CALLSTACK>WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogOpen.vi< <Begin.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:40.663 AM 02/06/2016,Teleop Disabled,0,TRUE,-44070,<LOCATION>FPGA_AIReadAccumulatorOutput.vi<CALLSTACK>FPGA_AIReadAccumulatorOutput.vi< <WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogOpen.vi< <Begin.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:40.762 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIReadConfig.vi->WPI_AccumulatorGetOutput.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:40.863 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIReadConfig.vi->WPI_AccumulatorGetOutput.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:40.963 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AccumulatorGetOutput.vi<CALLSTACK>WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:41.064 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:41.163 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:41.263 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AccumulatorGetOutput.vi<CALLSTACK>WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:41.364 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:41.464 AM 02/06/2016,Teleop Disabled,0,TRUE,-44070,<LOCATION>FPGA_AIReadAccumulatorOutput.vi<CALLSTACK>FPGA_AIReadAccumulatorOutput.vi< <WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:41.563 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIReadConfig.vi->WPI_AccumulatorGetOutput.vi->WPI_GyroAnalogGetAngle.vi->WPI_GyroGetAngle.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:41.663 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>FPGA_ReadAI.vi<CALLSTACK>FPGA_ReadAI.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:41.763 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>FPGA_ReadAI.vi<CALLSTACK>FPGA_ReadAI.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:41.864 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIReadConfig.vi->WPI_AccumulatorGetOutput.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:41.964 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AnalogChannelValueToVoltage.vi<CALLSTACK>WPI_AnalogChannelValueToVoltage.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:42.064 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:42.165 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,104.000000,0,0,0.000000,-0.000000,0
+10:19:42.265 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:42.366 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:42.465 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:42.565 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:42.666 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:42.766 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:42.866 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:42.966 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:43.067 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:43.166 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:43.267 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:43.367 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,102.000000,0,0,0.000000,-0.000000,0
+10:19:43.468 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:43.568 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:43.669 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:43.769 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:43.870 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:43.970 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:44.071 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIReadConfig.vi->WPI_AccumulatorGetOutput.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:44.171 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:44.271 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AccumulatorGetOutput.vi<CALLSTACK>WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:44.371 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:44.471 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AccumulatorGetOutput.vi<CALLSTACK>WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:44.571 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:44.672 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:44.772 AM 02/06/2016,Teleop Disabled,0,TRUE,-44070,<LOCATION>FPGA_AIReadAccumulatorOutput.vi<CALLSTACK>FPGA_AIReadAccumulatorOutput.vi< <WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:44.872 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:44.972 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:45.072 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIReadConfig.vi->WPI_AccumulatorGetOutput.vi->WPI_GyroAnalogGetAngle.vi->WPI_GyroGetAngle.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:45.173 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>FPGA_ReadAI.vi<CALLSTACK>FPGA_ReadAI.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:45.272 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>FPGA_ReadAI.vi<CALLSTACK>FPGA_ReadAI.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:45.372 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIReadConfig.vi->WPI_AccumulatorGetOutput.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:45.472 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AnalogChannelValueToVoltage.vi<CALLSTACK>WPI_AnalogChannelValueToVoltage.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:45.573 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:45.673 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_DIOReadOutputEnable.vi->WPI_DigitalModuleDIOAllocator.vi->WPI_DigitalInputOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:45.773 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:45.873 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:45.973 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:46.074 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIReadConfig.vi->WPI_AccumulatorGetOutput.vi->WPI_GyroAnalogOpen.vi->Begin.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:46.175 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AccumulatorGetOutput.vi<CALLSTACK>WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,101.000000,0,0,0.000000,-0.000000,0
+10:19:46.276 AM 02/06/2016,Teleop Disabled,0,TRUE,-44071,<LOCATION>WPI_AccumulatorGetOutput.vi<CALLSTACK>WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0
+10:19:46.376 AM 02/06/2016,Teleop Disabled,0,TRUE,-44070,<LOCATION>FPGA_AIReadAccumulatorOutput.vi<CALLSTACK>FPGA_AIReadAccumulatorOutput.vi< <WPI_AccumulatorGetOutput.vi< <WPI_GyroAnalogGetAngle.vi< <WPI_GyroGetAngle.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,103.000000,0,0,0.000000,-0.000000,0
+10:19:46.477 AM 02/06/2016,Teleop Disabled,0,TRUE,-63195,Read/Write Control in FPGA_AIReadConfig.vi->WPI_AccumulatorGetOutput.vi->WPI_GyroAnalogGetAngle.vi->WPI_GyroGetAngle.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,4000.000000,4000.000000,Speed,Speed,0.000000,0.000000,0.000000,3.000000,100.000000,0,0,0.000000,-0.000000,0

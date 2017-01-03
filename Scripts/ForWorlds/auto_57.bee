@@ -1,0 +1,36 @@
+# Function 57 (Cross Portcullis Defense, Score High)
+
+# Since the robot should be aligned at the start, set the current yaw on the NavX's gyroscope to 0.
+NAVX_ZERO_YAW
+# Wait 1.500 seconds for the shooter to reset.
+WAIT 1500
+
+# Set the desired shooter angle to the given value. Needed to go under portcullis.
+SET_SHOOTER_ANGLE 340
+# Set the desired shooter angle to the given value. Needed to go under portcullis.
+SET_ROLLER_ANGLE 600
+SET_SHOOTER_SPEED 2500
+
+WAIT 1500
+
+DRIVE_STRAIGHT_TARGET 116 0 10000 75
+
+SET_HEADING 0
+
+# Set the shooter wheel to move at 4000 RPM. Needed to shoot into the high goal.
+SET_ROLLER_ANGLE 500
+SET_SHOOTER_SPEED 4500
+SET_SHOOTER_ANGLE 182
+WAIT_FOR_PID
+
+# Use vision to turn and face the goal.
+SEARCH_FOR_GOAL
+
+WAIT 500
+
+SET_ROLLER_ANGLE 500
+
+WAIT 500
+
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

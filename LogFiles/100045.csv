@@ -1,0 +1,774 @@
+Time,RobotMode,AutoToRun,ErrorStatus, ErrorCode,ErrorSource,ActualRPM1,ActualRPM2,DesiredRPM1,DesiredRPM2,ControlMode1,ControlMode2,Yaw,Roll,Pitch,ShooterState,LoopTime,IsLevel,IsAutoTargeting,LeftMotorOutput,RightMotorOutput
+12:32:06.029 PM 02/06/2016,Teleop Enabled,0,TRUE,-1,spilib_writeread.vi<ERR>
+Inappropriate ioctl for device
+
+
+<b>Complete call chain:</b>
+     spilib_writeread.vi
+     WPI_SPIWrite.vi
+     navX Library v2.lvlib:Z900_navX_Internal_UpdateDevice.vi
+     navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:06.130 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:06.233 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:06.334 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:06.434 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:06.536 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:06.638 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:06.739 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:06.839 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:06.940 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:07.041 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:07.141 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:07.243 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:07.344 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:07.444 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:07.545 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:07.646 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,-0.006200,0.005022,0
+12:32:07.747 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:07.848 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:07.948 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:08.049 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:08.150 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:08.250 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:08.350 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:08.450 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,-0.006200,0.005022,0
+12:32:08.550 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:08.651 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:08.753 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:08.853 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:08.953 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:09.054 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:09.155 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:09.255 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:09.355 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:09.456 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:09.562 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:09.664 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:09.765 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:09.867 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:09.967 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:10.069 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:10.169 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:10.268 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:10.369 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:10.470 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:10.570 PM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:10.671 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:10.772 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:10.872 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:10.972 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:11.073 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:11.173 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:11.273 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:11.374 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:11.474 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:11.574 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:11.674 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:11.774 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:11.875 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:11.975 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:12.076 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:12.177 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:12.277 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:12.377 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:12.477 PM 02/06/2016,Teleop Disabled,0,TRUE,-44029,<LOCATION>WPI_SPIBusCache.vi<CALLSTACK>WPI_SPIBusCache.vi< <WPI_SPIOpen.vi< <navX Library v2.lvlib:Z900_navX_Internal_Open.vi< <navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:12.578 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:12.678 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:12.779 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:12.880 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:12.981 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:13.082 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:13.183 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:13.283 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:13.384 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:13.485 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:13.585 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:13.686 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:13.788 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,-0.006200,0.005022,0
+12:32:13.890 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:13.989 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:14.090 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:14.190 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:14.290 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:14.391 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:14.491 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:14.592 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:14.692 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:14.793 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:14.894 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0
+12:32:14.995 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,-0.006200,0.005022,0
+12:32:15.095 PM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,-0.006200,0.005022,0

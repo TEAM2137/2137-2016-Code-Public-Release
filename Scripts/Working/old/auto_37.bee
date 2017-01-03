@@ -1,0 +1,43 @@
+# Function 37 (Cross Portcullis Defense, Score Low)
+
+# Wait 0.500 seconds before script starts. Can be removed for speed if needed.
+WAIT 500
+# Drive straight until the encoders read 46.675 inches or the command has been running for 10.000 seconds. 
+DRIVE_STRAIGHT 46.675 10000
+# Set the angle of the shooter, in rotations. Runs instantly, but may take some time to reach; run WAIT_FOR_PID or other commands before shooting. Setting the roller angle to the lowest position primes the roller arm to push the Portcullis up.
+SET_ROLLER_ANGLE 60
+# Wait for the PIDs to center in the correct position.
+WAIT_FOR_PID
+# Drive straight for 6 inches, to get up under the Portcullis.
+DRIVE_STRAIGHT 6.00 5000
+# Set the angle of the shooter, in rotations. Runs instantly, but may take some time to reach; run WAIT_FOR_PID or other commands before shooting. Setting the roller angle to the highest position pushes the Portcullis up to drive under.
+SET_ROLLER_ANGLE 40
+# Drive straight until the NavX reads that you have tilted up, then down (indicating you have went over the defense), or if the encoders read 60 inches or the command has been running for 10.000 seconds.
+# Don't wait for the roller to move; drive while the roller is moving, performing the necessary action to get under.
+DRIVE_STRAIGHT_NAVX 60 10000
+# Wait for the PIDs to center in the correct position.
+WAIT_FOR_PID
+# Set the angle of the shooter, in rotations. Runs instantly, but may take some time to reach; run WAIT_FOR_PID or other commands before shooting.
+SET_SHOOTER_ANGLE 26.8
+# Set the angle of the shooter, in rotations. Runs instantly, but may take some time to reach; run WAIT_FOR_PID or other commands before shooting.
+SET_ROLLER_ANGLE 0
+
+# Drive straight until the encoders read 57.68 inches (to the midway line) or 10.000 seconds have elapsed.
+DRIVE_STRAIGHT 57.68 10000
+# Turn 90 degrees to the left.
+SET_HEADING -90
+# Drive straight until the encoders read 96.2 inches (the distance to the middle of defense 2) or 10.000 seconds have elapsed.
+DRIVE_STRAIGHT 10 10000
+# Turn 90 degrees to the right.
+SET_HEADING 90
+# Drive straight until the encoders read 94 inches (the distance to the low goal) or 10.000 seconds have elapsed.
+DRIVE_STRAIGHT 94 10000
+# Turn 60 degrees to the right. This causes the robot to face the low goal.
+SET_HEADING 60
+
+# Fire the ball at the current angle. We're relying on positional code to ensure we are facing the low goal.
+SHOOT
+# Wait 0.500 seconds before backing up. Can be removed for speed if needed.
+WAIT 500
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

@@ -1,0 +1,9 @@
+# Position 4x (High goal)
+# Set the shooter wheel to move at 9000 RPM.
+SET_SHOOTER_SPEED 9000
+# Turn 90 degrees to the left.
+SET_HEADING -90
+# Drive straight until the encoders read 14.76 inches or 10.000 seconds have elapsed.
+DRIVE_STRAIGHT 14.76 10000
+# Turn 90 degrees to the right.
+SET_HEADING 90

@@ -1,0 +1,13 @@
+# Function 06 (Test Drive Straight 5 Feet)
+
+# Wait 0.500 seconds before the script starts.
+WAIT 500
+
+# Drive straight for 60 inches, moving 5 feet, at current angle (1000), at 75% speed, stopping if bot takes more than 10.000 seconds.
+DRIVE_STRAIGHT_TARGET 60 1000 10000 75
+
+#Wait 0.500 seconds before the script ends.
+WAIT 500
+
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

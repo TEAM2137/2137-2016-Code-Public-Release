@@ -1,0 +1,23 @@
+# Function 03 (Test Search for Goal then Shoot)
+
+# Wait 1.500 seconds for the shooter to reset.
+WAIT 500
+
+SET_ROLLER_ANGLE 510
+
+# Set the shooter wheel to move at 4000 RPM. Needed to shoot into the low goal.
+SET_SHOOTER_SPEED 4500
+
+SET_SHOOTER_ANGLE 170
+
+WAIT_FOR_PID
+
+# Use vision to turn and face the goal.
+SEARCH_FOR_GOAL
+
+SHOOT
+
+WAIT 500
+
+STOP_ALL
+

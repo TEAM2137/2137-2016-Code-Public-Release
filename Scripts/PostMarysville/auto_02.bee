@@ -1,0 +1,29 @@
+# Function 02 (Test Drive Straight NavX Ramparts)
+
+# Wait 1.500 seconds for the shooter to reset.
+WAIT 1500
+# Since the robot should be aligned at the start, set the current yaw on the NavX's gyroscope to 0.
+NAVX_ZERO_YAW
+
+# Since the SET_ commands set the target value for the PID loops, wait for the PIDs to reach their targets.
+WAIT_FOR_PID
+
+# Drive forward until the robot has moved over the ramparts (indicated by the change in gyroscope angle) or 10.000 seconds have passed. 
+DRIVE_STRAIGHT_NAVX_RAMPARTS 0 10000 200
+
+# Wait 0.500 seconds before ending the script. Can be removed for speed if needed.
+=======
+# Function 02 (Cross Ramparts Defense)
+
+WAIT 1500
+
+NAVX_ZERO_YAW
+
+WAIT_FOR_PID
+
+DRIVE_STRAIGHT_NAVX_RAMPARTS 0 10000 200
+
+# Wait 0.500 seconds before backing up. Can be removed for speed if needed.
+WAIT 500
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

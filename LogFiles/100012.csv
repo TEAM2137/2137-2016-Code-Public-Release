@@ -1,0 +1,2265 @@
+Time,RobotMode,AutoToRun,ErrorStatus, ErrorCode,ErrorSource,ActualRPM1,ActualRPM2,DesiredRPM1,DesiredRPM2,ControlMode1,ControlMode2,Yaw,Roll,Pitch,ShooterState,LoopTime,IsLevel,IsAutoTargeting,LeftMotorOutput,RightMotorOutput
+10:03:13.981 AM 02/06/2016,Teleop Enabled,0,TRUE,-44007,<LOCATION>navX Library v2.lvlib:Z900_navX_RefNum_Get.vi<CALLSTACK>navX Library v2.lvlib:Z900_navX_RefNum_Get.vi< <Begin.vi< <Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,0.000000,0
+10:03:14.080 AM 02/06/2016,Teleop Enabled,0,TRUE,-1,spilib_writeread.vi<ERR>
+Inappropriate ioctl for device
+
+
+<b>Complete call chain:</b>
+     spilib_writeread.vi
+     WPI_SPIWrite.vi
+     navX Library v2.lvlib:Z900_navX_Internal_UpdateDevice.vi
+     navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:14.180 AM 02/06/2016,Teleop Enabled,0,TRUE,-44007,<LOCATION>navX Library v2.lvlib:Z900_navX_RefNum_Get.vi<CALLSTACK>navX Library v2.lvlib:Z900_navX_RefNum_Get.vi< <Periodic Tasks.vi< <Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:14.281 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:14.382 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:14.482 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:14.582 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:14.682 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:14.781 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:14.882 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:14.983 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:15.082 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:15.183 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:15.283 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:15.383 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:15.483 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:15.583 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:15.683 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:15.784 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:15.883 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:15.984 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:16.083 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:16.183 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:16.284 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:16.385 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:16.486 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:16.587 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:16.687 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:16.787 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:16.888 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:16.988 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:17.089 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:17.190 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:17.290 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:17.390 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:17.490 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:17.590 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:17.690 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:17.791 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:17.890 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:17.990 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:18.091 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:18.191 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:18.291 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:18.391 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:18.492 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:18.591 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:18.691 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:18.792 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:18.893 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:18.992 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:19.092 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:19.193 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:19.293 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:19.394 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:19.493 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:19.594 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:19.694 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:19.794 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:19.893 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:19.994 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:20.095 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:20.196 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:20.296 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:20.398 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:20.498 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:20.600 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:20.701 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:20.802 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:20.903 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:21.003 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:21.104 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:21.204 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:21.306 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:21.406 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:21.507 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:21.607 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:21.708 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:21.807 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:21.908 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:22.008 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:22.108 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:22.208 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:22.308 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:22.409 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:22.509 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:22.608 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:22.708 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:22.808 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:22.909 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:23.009 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:23.111 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:23.211 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:23.312 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:23.414 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:23.515 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:23.615 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:23.716 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:23.816 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:23.916 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:24.017 AM 02/06/2016,Teleop Enabled,0,TRUE,-44029,<LOCATION>WPI_SPIBusCache.vi<CALLSTACK>WPI_SPIBusCache.vi< <WPI_SPIOpen.vi< <navX Library v2.lvlib:Z900_navX_Internal_Open.vi< <navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:24.118 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:24.217 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:24.319 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:24.419 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:24.522 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:24.623 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:24.724 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:24.823 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:24.923 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:25.024 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:25.125 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:25.227 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:25.327 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:25.428 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:25.528 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:25.628 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:25.728 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:25.828 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:25.929 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:26.030 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:26.132 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:26.232 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:26.331 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:26.431 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:26.532 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:26.632 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:26.734 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:26.835 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:26.936 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:27.037 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:27.137 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:27.237 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:27.336 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:27.437 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:27.538 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:27.638 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:27.739 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:27.839 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:27.939 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:28.040 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:28.141 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:28.242 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:28.343 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:28.444 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:28.543 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:28.643 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:28.744 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:28.845 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:28.946 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:29.047 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:29.146 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:29.247 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:29.346 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:29.447 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:29.547 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:29.647 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:29.748 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:29.848 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:29.949 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:30.049 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:30.149 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:30.250 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:30.350 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:30.451 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:30.549 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:30.649 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:30.749 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:30.849 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:30.950 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:31.051 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:31.153 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:31.253 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:31.353 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:31.454 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:31.555 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:31.656 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:31.758 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:31.859 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:31.960 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:32.061 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:32.161 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:32.261 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:32.362 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:32.463 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:32.563 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:32.663 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:32.763 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:32.863 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:32.963 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:33.063 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:33.162 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:33.263 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:33.362 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:33.462 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:33.562 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:33.664 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,105.000000,0,0,0.000000,-0.000000,0
+10:03:33.765 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:33.864 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:33.965 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:34.064 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:34.165 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:34.266 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:34.368 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:34.467 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:34.567 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:34.667 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:34.767 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:34.868 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:34.968 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:35.067 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:35.167 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:35.268 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:35.368 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:35.468 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:35.568 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:35.669 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:35.770 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:35.869 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:35.969 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:36.070 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:36.169 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:36.269 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:36.369 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:36.469 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:36.569 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,104.000000,0,0,0.000000,-0.000000,0
+10:03:36.670 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:36.769 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:36.870 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:36.969 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:37.069 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:37.171 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:37.270 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:37.370 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:37.471 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:37.571 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:37.671 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:37.773 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:37.872 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:37.973 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:38.073 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:38.175 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:38.276 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:38.377 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:38.478 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:38.578 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:38.678 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:38.780 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:38.880 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:38.981 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:39.081 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:39.181 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:39.282 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:39.381 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:39.481 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:39.582 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:39.682 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:39.781 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:39.881 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:39.982 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,104.000000,0,0,0.000000,-0.000000,0
+10:03:40.083 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:40.183 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:40.284 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:40.386 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:40.486 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:40.587 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:40.687 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:40.788 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:40.888 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:40.989 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:41.089 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:41.189 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:41.290 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:41.390 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:41.489 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:41.589 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:41.689 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:41.790 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:41.891 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:41.990 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:42.090 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:42.190 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:42.291 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:42.392 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:42.493 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:42.592 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:42.693 AM 02/06/2016,Teleop Enabled,0,TRUE,-44029,<LOCATION>WPI_SPIBusCache.vi<CALLSTACK>WPI_SPIBusCache.vi< <WPI_SPIOpen.vi< <navX Library v2.lvlib:Z900_navX_Internal_Open.vi< <navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:42.793 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:42.895 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:42.997 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:43.098 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:43.200 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:43.299 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:43.399 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:43.500 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:43.601 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:43.703 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:43.803 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:43.903 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:44.004 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:44.105 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:44.206 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:44.307 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:44.408 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:44.508 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:44.609 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:44.709 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:44.810 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:44.910 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:45.010 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:45.111 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:45.211 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:45.312 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:45.412 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:45.513 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:45.614 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:45.715 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:45.816 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:45.917 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:46.018 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:46.119 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:46.221 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:46.322 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:46.422 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:46.523 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:46.624 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:46.725 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:46.827 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,104.000000,0,0,0.000000,-0.000000,0
+10:03:46.927 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:47.028 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:47.129 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:47.231 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:47.331 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:47.433 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:47.532 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:47.633 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:47.733 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:47.833 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:47.933 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:48.033 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:48.136 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:48.237 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:48.338 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:48.439 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:48.539 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:48.640 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:48.740 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:48.841 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:48.941 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,103.000000,0,0,0.000000,-0.000000,0
+10:03:49.042 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:49.142 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:49.241 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:49.341 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:49.441 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:49.543 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:49.643 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:49.744 AM 02/06/2016,Teleop Enabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:49.846 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:49.945 AM 02/06/2016,Teleop Enabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:50.045 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:50.146 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:50.245 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:50.346 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:50.446 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:50.547 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:50.647 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:50.746 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:50.846 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:50.947 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:51.048 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:51.147 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:51.247 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:51.347 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:51.448 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:51.549 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:51.651 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:51.751 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:51.851 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:51.951 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:52.051 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:52.152 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:52.252 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:52.352 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:52.452 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:52.552 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:52.652 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,102.000000,0,0,0.000000,-0.000000,0
+10:03:52.753 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:52.853 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:52.955 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:53.057 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:53.157 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:53.258 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:53.359 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:53.459 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:53.560 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:53.661 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:53.760 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_Quaternion.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:53.861 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_MotorControlOpenCANTalonSRX.vi
+     Begin.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:53.961 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0
+10:03:54.060 AM 02/06/2016,Teleop Disabled,0,TRUE,-44087,NetComm_CAN_Receive.vi:5470007<APPEND>
+
+<b>Complete call chain:</b>
+     NetComm_CAN_Receive.vi:5470007
+     WPI_CANTalonSRX_Receive.vi
+     WPI_CANTalonSRX_GetStatus.vi
+     ShooterVI.vi
+     Periodic Tasks.vi
+     Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,101.000000,0,0,0.000000,-0.000000,0
+10:03:54.161 AM 02/06/2016,Teleop Disabled,0,TRUE,1026,Invoke Node in navX Library v2.lvlib:Z900_navX_Internal_Get.vi->navX Library v2.lvlib:Z900_navX_Get_YPRHfH.vi->Periodic Tasks.vi->Robot Main.vi,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,0.000000,0.000000,0.000000,1.000000,100.000000,0,0,0.000000,-0.000000,0

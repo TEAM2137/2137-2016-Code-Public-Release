@@ -1,0 +1,40 @@
+===Joystick 0 (Driver) Free Buttons===
+Left Joystick X Axis (Axis 0)
+    NOTE: May interfere with driving
+Left Joystick Button (Button 8)
+    NOTE: May interfere with driving
+Select Button (Button 6)
+D-Pad Up-Right (POV 45)
+	NOTE: May interfere with Autonomous Selection
+D-Pad Down-Right (POV 135)
+	NOTE: May interfere with Autonomous Selection
+D-Pad Down-Left (POV 225)
+	NOTE: May interfere with Autonomous Selection
+D-Pad Up-Left (POV 315)
+	NOTE: May interfere with Autonomous Selection
+Right Trigger (Axis 3)
+    NOTE: Can be pushed partially for partial effects (lower speed etc.)
+    
+===Joystick 1 (Operator) Free Buttons===
+Left Joystick Button (Button 8)
+    NOTE: May interfere with Manual Control
+Right Joystick Button (Button 9)
+    NOTE: May interfere with Manual Control
+Left Trigger (Axis 2)
+    NOTE: Can be pushed partially for partial effects (lower speed etc.)
+Right Trigger (Axis 3)
+    NOTE: Can be pushed partially for partial effects (lower speed etc.)
+Right Shoulder Button (Button 5)
+D-Pad Up (POV 0)
+D-Pad Up-Right (POV 45)
+D-Pad Right (POV 90)
+D-Pad Down-Right (POV 135)
+D-Pad Down (POV 180)
+D-Pad Down-Left (POV 225)
+D-Pad Left (POV 270)
+D-Pad Up-Left (POV 315)
+
+===NOTES===
+ShooterManualControl is only used during the Shooter's Emergency Manual Mode
+RollerElevationInput is used during the Manual Mode (holding button) and during the Emergency Manual Mode.
+24 total buttons + axes

@@ -1,0 +1,44 @@
+# Function 13 (Cross Defense, Score Low, Low Goal)
+
+# Zero the gyro's angle before starting.
+NAVX_ZERO_YAW
+
+# Wait 1.100 seconds before script starts, to allow the shooter to reset.
+WAIT 1100
+
+# Position 1x (Low goal)
+# Set the desired angle of the shooter, in rotations. Needed to go under low bar.
+SET_SHOOTER_ANGLE 31
+# Set the desired angle of the roller, in rotations. Needed to go under low bar.
+SET_ROLLER_ANGLE 58
+
+# Give the roller time to move into position before driving forward.
+WAIT 750
+
+# Drive straight for 206 inches, under low bar and into position, at current angle (1000), at 75% speed, stopping if bot takes more than 10.000 seconds.
+DRIVE_STRAIGHT_TARGET 206 1000 10000 75
+# Set the angle of the shooter, in rotations. Needed to shoot low.
+SET_SHOOTER_ANGLE 27
+# Set the angle of the roller, in rotations. Needed to shoot low.
+SET_ROLLER_ANGLE 2
+
+# Position 1x (Low goal)
+# Set the shooter wheel to move at 4000 RPM. Needed to shoot low.
+SET_SHOOTER_SPEED 4000
+# Turn 55 degrees to the right at 50% power, to be in line with the ramp. 
+SET_HEADING 55 50
+
+# Drive up onto the ramp to be in position to shoot.
+DRIVE_STRAIGHT_TARGET 102 1000 10000 75
+
+# Wait for shooter angle and roller angle to be correct before shooting.
+WAIT_FOR_PID
+
+# Fire the ball at the current angle.
+SHOOT
+
+# Wait 0.500 seconds before ending the script.
+WAIT 500
+
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL

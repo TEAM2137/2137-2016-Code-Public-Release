@@ -1,0 +1,65 @@
+Autonomoose programming, discussion started 2/17/16
+
+Propose Matrix of autonomoose scripts and file naming structure.
+First digit of the file name is the position on the field, that the robot starts in, this will be 1-5 starting low bar as 1, and 6 will be used for Spy zone area.
+The second digit 0-9 will be for repeating functions and will remain consistent across all selections for 1-5, Spybot will probably need different routines, that can be performed from that specific location.
+
+===ENCODER RATIO===
+0.02566660664698
+
+===SHOOTER ANGLES===
+High Goal - 11.3
+Low Goal - 26.8
+Pickup Ball - 29
+Bumper High Shot - 2.8
+
+===ROLLER ANGLES===
+Fully Down - 69
+Pickup Ball - 53
+Lift Gate - 40
+Fully Up - 0
+
+===SHOOTER SPEEDS===
+Suck - -8000
+Low Goal - 4000
+High Goal - 9000
+Bumper Shot - 9000
+
+===DRIVE DISTANCES TO CENTER===
+Position 1 (Low Bar) - 144.2
+Position 2 - 91.2
+Position 3 - 38.0
+Position 4 - 14.76
+Position 5 (Near Secret Passage) - 67.8
+
+===MAIN COMMANDS===
+0 = Reach Defense
+	Drive from the Auto line to the defenses
+	46.675 inches
+1 = Cross Defense
+2 = Cross Defense, drop ball, cross defense back to neutral zone. (prep-2nd ball, 2nd crossing)
+3 = Cross Defense, score low.
+4 = Cross Defense, score high.
+5 = Cross Freeze Defense, score low.
+6 = Cross Freeze Defense, score high.
+7 = Cross Portcullis Defense, score low.
+8 = Cross Portcullis Defense, score high.
+
+Position one knows to always go under low bar, don't do 5-8
+Position two-five all act the same except for position.
+Position six has its own commands
+
+So if we are doing low bar, and we want to shoot high, the script to run would be 16, all of the 1x scripts would lower the shooter, lower the wonder arm, drive across…
+If we are setting up in position 2, and doing fries, shoot high we would run script 26.
+I think with this approach, we can get drivers to be consistent  with the choices and options. Auto selection needs to  allow for entries of 10-69 though. 
+
+===SPY BOT COMMANDS===
+0 = 
+1 = 
+2 = 
+3 = 
+4 = 
+5 = 
+6 = 
+7 = 
+8 = 

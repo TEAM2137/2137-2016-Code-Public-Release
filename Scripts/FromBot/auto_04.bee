@@ -1,0 +1,8 @@
+NAVX_ZERO_YAW
+
+WAIT 500
+
+#Set heading at 90 degrees at 60% power.
+SET_HEADING 90 60
+
+STOP_ALL

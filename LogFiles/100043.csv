@@ -1,0 +1,2 @@
+Time,RobotMode,AutoToRun,ErrorStatus, ErrorCode,ErrorSource,ActualRPM1,ActualRPM2,DesiredRPM1,DesiredRPM2,ControlMode1,ControlMode2,Yaw,Roll,Pitch,ShooterState,LoopTime,IsLevel,IsAutoTargeting,LeftMotorOutput,RightMotorOutput
+12:27:50.964 PM 02/06/2016,Autonomous Disabled,0,TRUE,-63195,Read/Write Control in FPGA_UtilitiesRead LocalTime.vi:870006->navX Library v2.lvlib:Z900_navX_Internal_ProcessingLoop.vi:2030001,0.000000,0.000000,-6000.000000,-6000.000000,Speed,Speed,-0.180000,2.200000,2.190000,1.000000,100.000000,0,0,0.000000,0.000000,1

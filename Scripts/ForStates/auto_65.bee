@@ -1,0 +1,36 @@
+# Function 65 (Cross Defense, Score High)
+
+# Wait for the shooter to reset.
+WAIT 1500
+# Align the robot.
+NAVX_ZERO_YAW
+
+# Set the shooter values to the desired numbers and wait to reach them.
+SET_SHOOTER_SPEED 4500
+SET_ROLLER_ANGLE 0
+SET_SHOOTER_ANGLE _SHOOTERANGLEHIGHGOAL
+WAIT_FOR_PID
+
+# Fire the ball.
+SHOOT
+
+WAIT 250
+
+# Set the shooter values to be able to go under the low bar.
+SET_SHOOTER_SPEED -3300
+SET_ROLLER_ANGLE _SHOOTERANGLELOWBAR
+SET_SHOOTER_ANGLE _SHOOTERANGLELOWBAR
+
+# Turn and drive under the low bar.
+# Turn a little more then correct with DRIVE_STRAIGHT_TARGET.
+SET_HEADING_ONEWHEEL 110
+DRIVE_STRAIGHT_TARGET 250 90 10000 85
+
+# Drive back under the low bar, weakening it.
+WAIT 500
+DRIVE_STRAIGHT_TARGET -100 1000 10000 85
+
+# Wait 0.500 seconds before ending.
+WAIT 500
+# Stop all motors and autonomous code, ending the script.
+STOP_ALL
